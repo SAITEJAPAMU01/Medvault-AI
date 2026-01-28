@@ -33,5 +33,5 @@ async def upload_document(file: UploadFile = File(...)):
 
 @app.get("/ask")
 def ask_ai(query: str):
-    # This is our placeholder for Gemini and Pinecone next
+    # Placeholder for Gemini and Pinecone integration
     return {"query": query, "response": "Backend logic ready. Next step: Connect Gemini API."}
